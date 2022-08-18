@@ -1,0 +1,67 @@
+
+/*Barra de navegacion*/
+
+@media all and (min-width: 767px) {
+    .navbar-brand{
+        color: antiquewhite;    
+    }
+    .navbar-nav .nav-link.active{
+        color: antiquewhite;    
+    }
+    .nav-link{
+        color: antiquewhite;
+    }
+    .navbar-brand:hover{
+        color: blueviolet;
+        transition: 1s;
+    }
+    .navbar-nav .nav-link.active:hover{
+        color: blueviolet;
+        transition: 1s;
+    }
+    .nav-link:hover{
+        color: blueviolet;
+        transition: 1s;
+    }
+}
+
+/*DARK MODE*/
+
+body{
+    background-color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+/* MAIN MENU */
+@media all and (min-width: 767px) {
+    .card{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.card{
+    position: relative;
+}
+.card:hover .description{
+    display: block;
+
+}
+.description{
+    position: absolute;
+    display: none;
+    text-align: center;
+    padding: 10px;
+    color: antiquewhite;
+    background: rgba(0,0,0,.7);
+    font-style: italic;
+    margin-top: 3rem;
+}
