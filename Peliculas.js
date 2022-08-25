@@ -2,6 +2,7 @@
 const peliculas=[
     {
     ID:"1",
+    btn:"1",
     titulo:"Unboxed",
     imagen:"./unboxed-200x300.jpg",
     genero:"terror",
@@ -10,10 +11,11 @@ const peliculas=[
     director:"David Becerra, Eddie del Carmen",
     actores:"Bryan Dijols, Elaine del Valle, Katherine",
     urlpeli:"./peliculas/unboxedRef.html",
-    descripcion:"Laura Díaz es una prometedora influencer presionada por un patrocinador VIP para que ofrezca su mejor actuación en una retransmisión en directo de Halloween. Mientras la transmisión comienza con una serie de preguntas de trivia, la noche da un giro espeluznante cuando un misterioso usuario comenta sobre la vida personal de Laura. Mientras Laura sigue abriendo cajas de regalo de sus patrocinadores, pronto descubre que algunas de las cajas tienen regalos grotescos en su interior. El misterioso usuario envía entonces un mensaje de texto a Laura y le explica que tendrá que participar en su propio y enfermizo juego de regalos, o de lo contrario habrá que pagar un precio mortal"
+    descripcion:"Laura Díaz es una prometedora influencer presionada por un patrocinador VIP para que ofrezca su mejor actuación en una retransmisión en directo de Halloween...."
     },
     {
     ID:"2",
+    btn:"2",
     titulo:"Corazones mal heridos",
     imagen:"./corazonesMalheridos200x300.jpg",
     genero:"Drama",
@@ -21,10 +23,12 @@ const peliculas=[
     duracion:"2h 2min",
     director:"Ellizabeth Allen,Ishai Setton",
     actores:"Benjamín Del Cerro, A.J.Tannen, Alex Wexo, Anna Marusich",
-    urlpeli:"./peliculas/CorazonesmalheridosRef.html"
+    urlpeli:"./peliculas/CorazonesmalheridosRef.html",
+    descripcion:"Una aspirante a música y un marine a punto de irse a Irak deciden casarse por conveniencia. Pero una tragedia pronto convierte su relación falsa en algo muy real."
     },
     {
-    ID:"3",    
+    ID:"3",
+    btn:"3",    
     titulo:"Dc liga",
     imagen:"./dc-liga-de-supermascotas-200x300.jpg",
     genero:"Accion",
@@ -32,10 +36,12 @@ const peliculas=[
     duracion:"1hs 46min",
     director:"Jared Stern"||"Sam Levine",
     actores:"Alfred Molina, Amanda Manes ",
-    urlpeli:"#"
+    urlpeli:"#",
+    descripcion:"El perro de Superman se une al gato volador para impedir el crimen mientras Superman se va de vacaciones."
     },
     {
     ID:"4",
+    btn:"4",
     titulo:"Linterna verde",
     imagen:"./linterna-verde-200x300.jpg",
     genero:"Animacion",
@@ -43,10 +49,12 @@ const peliculas=[
     duracion:"1hs 23min",
     director:"Anna Gutto",
     actores:"Aldis Hodge, Bryan Bloom",
-
+    urlpeli:"#",
+    descripcion:"El ex soldado John Stewart se une a los Green Lanterns, una fuerza de patrulla espacial"
     },
     {
     ID:"5",
+    btn:"5",
     titulo:"Mi peluqueria en rio",
     imagen:"./mi-peluqueria-en-rio-200x300.jpg",
     genero:"Comedia",
@@ -54,11 +62,12 @@ const peliculas=[
     duracion:"1hs 30min",
     director:"Leticia Prisco, Rodrigo França",
     actores:" Bruno Jablonski, Jeniffer Dias",
-    urlpeli:"#"
-
+    urlpeli:"#",
+    descripcion:"Un hijo abnegado decide echarle una mano a su madre, que está a punto de perder su peluquería. Al hacerlo, se destapa como el estilista más talentoso de la zona."
     },
     {
     ID:"6",
+    btn:"6",
     titulo:"Not okay",
     imagen:"./not-okay-200x300.jpg",
     genero:"Comedia",
@@ -66,11 +75,12 @@ const peliculas=[
     duracion:"1hs 40min",
     director:"Quinn Shephard",
     actores:"Blaise Corrigan, Dash Perry", 
-    urlpeli:"#"
-
+    urlpeli:"#",
+    descripcion:"Una joven desesperada por amigos y fama, finge un viaje a París para actualizar su presencia en las redes sociales. En el mundo real tiene lugar un incidente aterrador que se convierte en parte del viaje imaginario y que ella deberá resolver."
     },
     {
     ID:"7",
+    btn:"7",
     titulo:"Paradise highway",
     imagen:"./paradise-highway-200x300.jpg",
     genero:"Thriller",
@@ -78,11 +88,12 @@ const peliculas=[
     duracion:"1hs 55min",
     director:"Anna Gutto",
     actores:"Calvin Williams, Cameron Monaghan",
-    urlpeli:"#"
-
+    urlpeli:"#",
+    descripcion:"Una camionera se ve obligada a contrabandear un cargamento ilícito para salvar a su hermano de una mortífera banda carcelaria. "
     },
     {
     ID:"8",
+    btn:"8",
     titulo:"Pipa",
     imagen:"./pipa-200x300.jpg",
     genero:"Crimen",
@@ -90,7 +101,7 @@ const peliculas=[
     duracion:"1h 56m",
     director:"Alejandro Montiel",
     actores:"Benjamín Del Cerro, Inés Estévez, Luisana Lopilato",
-    urlpeli:"#"
-
+    urlpeli:"#",
+    descripcion:"Manuela «Pipa» Pelari ya no es la misma. La mujer dura y aguerrida que sobrevivió a su paso por la Policía a fuerza de romper las reglas y guardar secretos oscuros decidió cambiar de vida. "
     },     
 ]
